@@ -1,0 +1,33 @@
+{
+  "name": "benderjs-promise",
+  "version": "0.1.0",
+  "description": "ES6-style Promises for Bender.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jscs . && jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benderjs/benderjs-promise.git"
+  },
+  "keywords": [
+    "es6",
+    "promise",
+    "bender",
+    "benderjs",
+    "adapter"
+  ],
+  "author": "CKSource <npm@cksource.com> (http://cksource.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benderjs/benderjs-promise/issues"
+  },
+  "homepage": "https://github.com/benderjs/benderjs-promise",
+  "dependencies": {
+    "es6-promises": "^1.0.10"
+  },
+  "devDependencies": {
+    "jscs": "^1.6.1",
+    "jshint": "^2.5.5"
+  }
+}
